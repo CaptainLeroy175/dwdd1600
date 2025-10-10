@@ -9,7 +9,7 @@ header {
     padding: 1rem 15px;
 }
 header span {
-    color: #009a11;
+    color: #000000;
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -37,7 +37,7 @@ nav li.active a {
     color: #41035b;
 }
 nav li a:hover {
-    color: #00ff1c;
+    color: #41035b;
 }
 
 /* Main content */
