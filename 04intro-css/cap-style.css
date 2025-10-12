@@ -33,11 +33,11 @@ nav a {
     font-weight: 400;
 }
 nav li.active a {
-    background-color: #00ff5d;
+    background-color: #000000;
     color: #41035b;
 }
 nav li a:hover {
-    color: #41035b;
+    color: #00ff5d;
 }
 
 /* Main content */
