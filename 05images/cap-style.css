@@ -99,6 +99,24 @@ main a:hover {
     color: #00ff5d;
 }
 
+/* gallery Stuff */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #376259
+}
+
 /* Footer styling */
 footer {
     background-color: #41035b;
