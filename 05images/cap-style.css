@@ -8,6 +8,7 @@ header {
     background-color: #00b914;
     padding: 1rem 15px;
 }
+
 header span {
     color: #000000;
     font-size: 1.5rem;
@@ -18,12 +19,14 @@ header span {
 nav {
     background-color: #00ff1c;
 }
+
 nav ul {
     margin: 0;
     padding: 0 10px;
     list-style-type: none;
     display: flex;
 }
+
 nav a {
     display: block;
     padding: 0.83rem 1rem;
@@ -32,10 +35,12 @@ nav a {
     color: #00b914;
     font-weight: 400;
 }
+
 nav li.active a {
     background-color: #000000;
     color: #41035b;
 }
+
 nav li a:hover {
     color: #00ff5d;
 }
@@ -44,46 +49,58 @@ nav li a:hover {
 main {
     padding: 1rem 10px;
 }
+
 main h1 {
     color: #009a11;
 }
+
 main h2 {
     color: #00d3ff;
     margin-bottom: 0.2rem;
 }
+
 main p {
     margin: 0;
     color: #232323;
 }
+
 main ol {
     padding: 0.5rem 30px;
     background-color: #b1b1b1;
 }
+
 main dl dt {
     color: #0b94ff;
     font-weight: 400;
     margin-top: 1rem;
 }
+
 main dl dd {
     color: #00a0c2;
     font-size: 0.9rem;
     margin-left: 20px;
 }
+
 main ul {
-    list-style-type: disc; /* Or remove if not needed */
+    list-style-type: disc;
+    /* Or remove if not needed */
 }
+
 main ul li {
     line-height: 125%;
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
 }
+
 main strong {
     font-weight: 400;
     color: black;
 }
+
 main em {
     font-weight: 400;
 }
+
 main address {
     font-style: normal;
     background-color: #00b914;
@@ -92,29 +109,40 @@ main address {
     border: 1px solid #024873;
     width: 200px;
 }
+
 main a {
     color: #024873;
 }
+
 main a:hover {
     color: #00ff5d;
 }
 
 /* gallery Stuff */
 
-div.gallery {
+.cap-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 20px 10px;
 }
 
-div.gallery figure {
+.cap-gallery figure {
     margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
 }
 
-div.gallery figcaption {
-    text-align: center;
-    font-size: .8rem;
-    color: #376259
+.cap-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cap-gallery figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
 }
 
 /* Footer styling */
@@ -126,6 +154,7 @@ footer {
     color: #00ff5d;
     letter-spacing: 3px;
 }
+
 footer p {
     margin: 0;
 }
