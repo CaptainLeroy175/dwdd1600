@@ -1,0 +1,192 @@
+body {
+    font-family: "Geo", sans-serif;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #00b914;
+    padding: 1rem 15px;
+}
+
+header span {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #00ff1c;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #00b914;
+    font-weight: 400;
+}
+
+nav li.active a {
+    background-color: #000000;
+    color: #41035b;
+}
+
+nav li a:hover {
+    color: #00ff5d;
+}
+
+/* Main content */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #009a11;
+}
+
+main h2 {
+    color: #00d3ff;
+    margin-bottom: 0.2rem;
+}
+
+main p {
+    margin: 0;
+    color: #232323;
+}
+
+main ol {
+    padding: 0.5rem 30px;
+    background-color: #b1b1b1;
+}
+
+main dl dt {
+    color: #0b94ff;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #00a0c2;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: disc;
+    /* Or remove if not needed */
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+main strong {
+    font-weight: 400;
+    color: black;
+}
+
+main em {
+    font-weight: 400;
+}
+
+main address {
+    font-style: normal;
+    background-color: #00b914;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #024873;
+    width: 200px;
+}
+
+main a {
+    color: #024873;
+}
+
+main a:hover {
+    color: #00ff5d;
+}
+
+/* gallery Stuff */
+
+.cap-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.cap-gallery figure {
+    margin: 0;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cap-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cap-gallery figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.cap-form fieldset{
+    border: 2px solid #41035b;
+    border-radius: 5px;
+
+}
+
+.cap-form legend{
+    color:#00b914;
+}
+
+.cap-form  label{
+    color: #009a11;
+    margin: 5px;
+}
+
+.cap-form label, .cap-form select, .cap-form [type=text], .cap-form [type=email], .cap-form [type=tel], .cap-form textarea {
+    display: block;
+}
+
+.cap-form :required {
+    background-color: #41035b 0.1;
+
+}
+
+.cap-form [type=submit]{
+    border: #00b914;
+    padding: 2rem;
+    border-radius: 15px;
+    color: #00b914;
+}
+
+
+/* Footer styling */
+footer {
+    background-color: #41035b;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #00ff5d;
+    letter-spacing: 3px;
+}
+
+footer p {
+    margin: 0;
+}
