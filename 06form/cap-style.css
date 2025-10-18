@@ -172,8 +172,9 @@ main a:hover {
 .cap-form [type=submit]{
     border: #00b914;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 5px;
     color: #00b914;
+    background-color: #41035b;
 }
 
 
