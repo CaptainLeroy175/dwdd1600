@@ -161,7 +161,7 @@ main a:hover {
 }
 
 .cap-form label, .cap-form select, .cap-form [type=text], .cap-form [type=email], .cap-form [type=tel], .cap-form textarea {
-    display: block;
+    display: block; 
 }
 
 .cap-form :required {
