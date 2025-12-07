@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="CaptainLeroy175">
+    <meta name="description" content="Learn about who Captain Leroy is, and what he does">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="cap-style.css">
+
+    <link rel="icon" type="image/x-icon" href="favicon_io/">
+
+    <title>Captain's Log: Game Idea Submission/</title>
+</head>
+
+<body>
+    <!--Start Page-->
+    <header>
+        <img src="images/astrovision 2.0 Logo.png" alt="Captain's Logo" width="50" height="50">
+        <span>Captain's Log</span>
+    </header>
+
+    <!--Start Navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">An N-Troductory Overview</a></li>
+            <li><a href="captain-location.html">Where to Find The Captain</a></li>
+            <li><a href="cap-gallery.html">Image Gallery</a></li>
+            <li class="active"><a href="cap-form.html">Captains Crew Application</a></li>
+        </ul>
+
+    </nav>
+
+    <!--Start Main-->
+    <main>
+        <h1>Want to Join the Captains Crew?</h1>
+        <p>Then Please fill out the form below!</p>
+        <p>*I will only use this info to update you on stuff.</p>
+
+        <form method="get" class="cap-form" action ="thanks.html">
+
+        <fieldset>
+            <legend>Captain's Crew Mailing List</legend>
+
+            <Label>Name*<input type="text" name="name" required placeholder="Whats your name?"></Label>
+
+            <Label>Email Address*<input type="email" name="email" required placeholder="Email address?"></Label>
+
+            <Label>Phone Number<input type="tel" name="phone" placeholder="Phone Number?"></Label>
+            
+        </fieldset>
+        
+        <fieldset>
+        <legend>How often do you want to be notified of things?</legend>
+
+        <label>Very Freqently<input type="radio" name="method" value="veryfrequent">I would like to be well informed</label>
+        <label>Less Freqently<input type="radio" name="method" value="lessfrequent">id prefer just the important stuff</label>
+        <label>Not very much<input type="radio" name="method" value="notverymuch">I just want to join the crew, little-to-no notifications </label>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Out of Curiousty, where did you hear about me?</legend>
+        <label><input type="checkbox" name="socialmedia">Social Media</label>
+        <label><input type="checkbox" name="videos">Videos</label>
+        <label><input type="checkbox" name="frompeople">Heard about you from someone</label>
+        <label><input type="checkbox" name="chance encounter">Found you randomly</label>
+      </fieldset>
+
+      <fieldset>
+        <Legend>How would you prefer to be notified?</Legend>
+        <select name="notifications" id="">
+            <option value="none">Please Choose</option>
+            <option value="Email">Email</option>
+            <option value="Phone">Phone</option>
+            <option value="Both">Both Please!</option>
+        </select>
+      </fieldset>
+
+        <h1>Game Suggestions</h1>
+        <p> Also, You got a game or two that you would like me to play?</p>
+        <p>Then feel free to submit your ideas below!</p>
+
+
+        <fieldset>
+            <legend>Game #1</legend>
+
+            <Label>Game Suggestion 1<input type="text" name="game-1" required placeholder="Please suggest at Least 1 game"></Label>
+
+            <Label>Reasoning?<textarea name="game-comments 1" required placeholder="Why do you want me to Play this game?"></textarea></Label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Game 2</legend>
+
+            <Label>Game Suggestion #2 (optional)<input type="text" name="game-2" placeholder="Have another game you would like me to play?"></Label>
+
+            <Label>Reasoning?<textarea name="game-comments 2" placeholder="Why do you want me to Play this game?"></textarea></Label>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Game #3</legend>
+
+            <Label>Game Suggestion #3 (optional)<input type="text" name="game-3" placeholder="Have another game you would like me to play?"></Label>
+
+            <Label>Reasoning?<textarea name="game-comments 2" placeholder="Why do you want me to Play this game?"></textarea></Label>
+            
+        </fieldset>
+
+      <input type="submit" value="N-Formation Submission">
+
+      </form>
+
+    </main>
+
+    <!--Start Footer-->
+    <footer>
+        <p>&copy; 2025 &bull;CaptainLeroy175 &bull; </p>
+    </footer>
+
+</body>
+
+</html>
