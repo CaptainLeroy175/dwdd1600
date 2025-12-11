@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Meta Tags, font, and Favicon-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nate L. Martin">
+    <meta name="description" content="Budget Vacations, Where you can Travel for Amazing Prices">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Budget Vacations</title>
+    <link rel="stylesheet" href="vacation_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<!---->
+
+<body>
+    <!--start of vacation-->
+    <header>
+        <h1>Budget Vacations</h1>
+    </header>
+
+    <!--links and navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="image_gallery.html">Destinations</a></li>
+            <li><a href="video.html">Featured Vacation</a></li>
+            <li><a href="vacation_packages.html">Vacation Packages</a></li>
+            <li class="active"><a href="contact.html">Contact Us!</a></li>
+        </ul>
+    </nav>
+    <!--Main Page Stuff-->
+    <main>
+        <h2>Need to get in contact with us or Have Quesions?</h2>
+        <h2>Then Feel Free to Fill out the Form below and we can Help as best we can!</h2>
+        <p> - Please Take Note that we will reply between 3-5 Business days, so please plan accordingly -</p>
+
+        <form method = "get" class="contact" action="thank_you.html" >
+
+        <fieldset>
+            <p>Please fill out the Information Below</p>
+
+            <legend>Contact Info</legend>
+            <label>What is your Name? <input type="text" name="name" required placeholder="First and Last Name"></label>
+            <label>What is your Name? <input type="tel" name="phone number" required placeholder="Phone Number"></label>
+            <label>What is your Name? <input type="email" name="email" required placeholder="Email"></label>
+        </fieldset>    
+
+        <fieldset>
+            <p>What is your preffered way of being notified?</p>
+            <select name="Notification" required>
+                <option value="Please Choose One">Please Select one</option>
+                <option value="Phone">Phone only</option>
+                <option value="Email">Email only</option>
+                <option value="both">Both are good</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <p>Are you planning to travel anything soon?</p>
+            <label><input type="radio" name="Yes, Quite soon" value="">Yes I am </label>
+            <label><input type="radio" name="Later I will be" value="">Pretty Soon</label>
+            <label><input type="radio" name="not yet." value="">Not yet</label>
+
+            <p>If so, Then Where to?</p>
+            <textarea name="other" placeholder="Enter Location here"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <p>How can we be of Assistance?</p>
+            <textarea name="other" placeholder="Please let us know so we can help you the best we can!"></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <p>Questions or Concerns?</p>
+            <textarea name="other" placeholder="Feel Free to share!"></textarea>
+        </fieldset>
+
+        <input type="submit" value = "Submit Questions">
+
+        </form>
+    </main>
+    <!--Footer Things-->
+    <footer>
+        <p>&copy; Budget Vacations 2025</p>
+    </footer>
+
+</body>
+
+</html>
